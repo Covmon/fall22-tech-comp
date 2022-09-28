@@ -104,3 +104,5 @@ Not Found: /apple-touch-icon-precomposed.png
 "GET /favicon.ico HTTP/1.1" 404 6767
 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 6830
 "GET /apple-touch-icon.png HTTP/1.1" 404 6794
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6767

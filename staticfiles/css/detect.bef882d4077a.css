@@ -1,0 +1,43 @@
+#video{
+
+
+}
+#overlay{
+    position: absolute;
+    z-index: 1001;
+}
+#video-view{
+    z-index: 1000;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+@keyframes bang {
+    from {
+      transform: translate3d(0,0,0);
+      opacity: 1;
+    }
+  }
+  .hoverme {
+    cursor: pointer;
+    position: relative;
+  }
+    span {
+      color: #333;
+      font-size: .9em;
+    }
+    .conf {
+      position: absolute;
+      display: block;
+      left: 50%;
+      top: 0;
+      width: 3px;
+      height: 8px;
+      background: red;
+      opacity: 0;
+    }
+  
+  

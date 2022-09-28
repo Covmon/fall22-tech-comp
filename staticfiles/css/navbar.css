@@ -1,0 +1,125 @@
+.social-button{
+
+}
+.social-icon{
+    color: #B374DA !important;
+    font-size: 24px !important;
+}
+.social-button{
+    transition: all 300ms ease;
+}
+.social-button:hover{
+    transform: translateY(-3px);
+}
+.search-circle{
+    color: #67278e;
+}
+
+#banner{
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: 'Nunito', sans-serif;
+    vertical-align: middle;
+}
+#banner > a{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    transition: all 300ms ease;
+}
+#banner > a:hover{
+    font-weight: bold;
+    text-decoration: none;
+    color: #b374da;
+}
+
+.nav-link{
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Sorts Mill Goudy', serif; */
+    font-size: 16px;
+line-height: 1.25;
+position: relative;
+z-index: 1;
+color: #242323;
+letter-spacing: 0.3px;
+}
+.nav-link:hover{
+    color: #b374da;
+}
+.active{
+    color: #67278e !important;
+}
+#search{
+    background-color: transparent !important;
+    background: transparent;
+    color: transparent;
+    border-radius: 50%;
+    
+}
+
+#side-nav-image{
+    outline-color: none;
+}
+.dropdown-menu{
+    border-radius: 0;
+    border: none;
+}
+.nav-link:focus, .nav-link:hover {
+    color: #b374da;
+    outline: none;
+    }
+
+/* .nav-link:after{
+    content: "";
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+    border-right: 1px solid rgba(38,34,34,.15) !important;
+    transform: skewX(-20deg);
+}
+
+.last-link:active{
+    border-right-color: transparent !important;
+} */
+
+.dropdown-item{
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Sorts Mill Goudy', serif; */
+    font-size: 16px;
+line-height: 1.25;
+position: relative;
+z-index: 1;
+color: #242323;
+letter-spacing: 0.3px;
+transition: all 300ms ease;
+}
+
+.dropdown-item:hover {
+    color: #b374da;
+    background-color: white;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+     }
+    
+#scroll-navbar{
+    transition: all 300ms ease;
+    z-index: 1000;
+}
+#top-navbar{
+    z-index: 1001;
+}
+
+.logo{
+    transition: all 300ms ease;
+}
+.logo:hover{
+    transform: translateY(-3px);
+}
