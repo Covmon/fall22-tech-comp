@@ -1,32 +1,44 @@
-from requests.api import get, head
 from core.models import Masthead
-from read.models import ArtWork, Magazine, Work
-from ads.models import Ad
+from read.models import Magazine, Work
 from django.shortcuts import render
+from django.http.response import JsonResponse
 import requests
 from django.conf import settings
-from django.db.models import Q, base
+from django.db.models import Q
 from django.contrib.auth import get_user_model
 from itertools import chain
 from django.core.paginator import Paginator
-from .utils import get_user_id
-import time
-from random import getrandbits
+from core.utils import get_user_id
 from django.contrib import messages
+
+from read.serializers import MagazineSerializer, UserSerializer, WorkSerializer
 
 def index(request):
     trending_works = Work.objects.get_trending()
+    trending_serializer = WorkSerializer(trending_works, context={'request': request}, many=True)
+
     magazine = Magazine.objects.filter(featured=True, active=True).order_by("created_at").first()
+    magazine_serializer = MagazineSerializer(magazine, context={'request': request})
+
+    magazines = Magazine.objects.filter(active=True).order_by("-created_at")
+    magazines_serializer = MagazineSerializer(magazines, context={'request': request}, many=True)
+
     featured_works = Work.objects.filter(magazine=magazine, active=True).order_by("?").distinct()[:2]
-    users = get_user_model().objects.filter(is_hidden=False).order_by("?").distinct()[:3]
+    featured_serializer = WorkSerializer(featured_works, context={'request': request}, many=True)
+
+    users = list(get_user_model().objects.filter(is_hidden=False).order_by("?").distinct()[:3])
+    users_serializer = UserSerializer(users, context={'context': request}, many=True)
+
     context = {
-        "featured_works": featured_works,
-        "trending_works": trending_works,
-        "magazine": magazine,
-        "magazines": Magazine.objects.filter(active=True).order_by("-created_at"),
-        "users": users
+        "featured_works": featured_serializer.data,
+        "trending_works": trending_serializer.data,
+        "magazine": magazine_serializer.data,
+        "magazines": magazines_serializer.data,
+        "users": users_serializer.data,
     }
-    return render(request, "index.html", context)
+    
+    return JsonResponse(context)
+    # return render(request, "index.html", context)
 
 def search(request):
     search = request.GET.get("search", "")

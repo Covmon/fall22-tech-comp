@@ -106,3 +106,495 @@ Not Found: /apple-touch-icon-precomposed.png
 "GET /apple-touch-icon.png HTTP/1.1" 404 6794
 Not Found: /favicon.ico
 "GET /favicon.ico HTTP/1.1" 404 6767
+Not Found: /works/
+"GET /works/ HTTP/1.1" 404 6752
+Not Found: /works/
+"GET /works/ HTTP/1.1" 404 6752
+Not Found: /works/
+"GET /works/ HTTP/1.1" 404 6752
+Not Found: /works/
+"GET /works/ HTTP/1.1" 404 6752
+Not Found: /works/
+"GET /works/ HTTP/1.1" 404 6752
+Not Found: /works/
+"GET /works/ HTTP/1.1" 404 6752
+Not Found: /work/add-laugh-score/
+"GET /work/add-laugh-score/ HTTP/1.1" 404 6797
+Not Found: /work/add-laugh-score/
+"GET /work/add-laugh-score/ HTTP/1.1" 404 6797
+Not Found: /work/add-laugh-score/
+"POST /work/add-laugh-score/ HTTP/1.1" 404 6798
+Not Found: /work/add-laugh-score/
+"POST /work/add-laugh-score/ HTTP/1.1" 404 6798
+Not Found: /work/add-laugh-score/
+"POST /work/add-laugh-score/ HTTP/1.1" 404 6798
+Not Found: /work/add-laugh-score/
+Not Found: /work/add-laugh-score/
+"POST /work/add-laugh-score/ HTTP/1.1" 404 6798
+"POST /work/add-laugh-score/ HTTP/1.1" 404 6798
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+Forbidden (CSRF cookie not set.): /read/work/add-laugh-score/
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+"POST /read/work/add-laugh-score/ HTTP/1.1" 403 2870
+Not Found: /core/
+"GET /core/ HTTP/1.1" 404 6749
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 27, in index
+    return JsonResponse({"context": context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+"GET / HTTP/1.1" 500 93896
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 27, in index
+    return JsonResponse({"context": context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+"GET / HTTP/1.1" 500 133581
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 27, in index
+    return JsonResponse({"context": context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+"GET / HTTP/1.1" 500 133581
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 27, in index
+    return JsonResponse({"context": context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+"GET / HTTP/1.1" 500 133578
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 26, in index
+    print(context.featured_works)
+AttributeError: 'dict' object has no attribute 'featured_works'
+"GET / HTTP/1.1" 500 65114
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 26, in index
+    print(context.featured_works)
+AttributeError: 'dict' object has no attribute 'featured_works'
+"GET / HTTP/1.1" 500 66138
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 27, in index
+    return JsonResponse({"context": context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Work is not JSON serializable
+"GET / HTTP/1.1" 500 94411
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 27, in index
+    print(serializers.serialize('json', context))
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/__init__.py", line 129, in serialize
+    s.serialize(queryset, **options)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/base.py", line 94, in serialize
+    concrete_model = obj._meta.concrete_model
+AttributeError: 'str' object has no attribute '_meta'
+"GET / HTTP/1.1" 500 77136
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 188, in _get_response
+    self.check_response(response, callback)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 309, in check_response
+    raise ValueError(
+ValueError: The view core.views.index didn't return an HttpResponse object. It returned None instead.
+"GET / HTTP/1.1" 500 65851
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 26, in index
+    print(serializers.serialize('json', context))
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/__init__.py", line 129, in serialize
+    s.serialize(queryset, **options)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/base.py", line 94, in serialize
+    concrete_model = obj._meta.concrete_model
+AttributeError: 'str' object has no attribute '_meta'
+"GET / HTTP/1.1" 500 77136
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 26, in index
+    return JsonResponse({'context': context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Work is not JSON serializable
+"GET / HTTP/1.1" 500 93356
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/core/views.py", line 26, in index
+    return JsonResponse({'context': context})
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type QuerySet is not JSON serializable
+"GET / HTTP/1.1" 500 93647
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 42, in work_detail
+    "work": serializer.data,
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+TypeError: 'Work' object is not iterable
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 42, in work_detail
+    "work": serializer.data,
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+TypeError: 'Work' object is not iterable
+"POST /read/works/1/ HTTP/1.1" 500 81860
+"POST /read/works/1/ HTTP/1.1" 500 81860
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 42, in work_detail
+    "work": serializer.data,
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+TypeError: 'Work' object is not iterable
+"POST /read/works/1/ HTTP/1.1" 500 81860
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 42, in work_detail
+    "work": serializer.data,
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 768, in data
+    ret = super().data
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 686, in to_representation
+    return [
+TypeError: 'Work' object is not iterable
+"POST /read/works/1/ HTTP/1.1" 500 81860
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 43, in work_detail
+    return JsonResponse(context)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Work is not JSON serializable
+"GET /read/works/1/ HTTP/1.1" 500 92793
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 43, in work_detail
+    return JsonResponse(context)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Work is not JSON serializable
+"GET /read/works/1/ HTTP/1.1" 500 92793
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 43, in work_detail
+    return JsonResponse(context)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type Work is not JSON serializable
+"GET /read/works/1/ HTTP/1.1" 500 92793
+Not Found: /work/add-laugh-score/
+"POST /work/add-laugh-score/ HTTP/1.1" 404 6798
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 45, in work_detail
+    "magazine_art_work_url": work.magazine.cover_image.url,
+AttributeError: 'ArtWork' object has no attribute 'url'
+"GET /read/works/1/ HTTP/1.1" 500 66175
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 51, in work_detail
+    return JsonResponse(context)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/http/response.py", line 603, in __init__
+    data = json.dumps(data, cls=encoder, **json_dumps_params)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/__init__.py", line 234, in dumps
+    return cls(
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/serializers/json.py", line 105, in default
+    return super().default(o)
+  File "/Users/noahcovey/opt/anaconda3/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type method is not JSON serializable
+"GET /read/works/1/ HTTP/1.1" 500 122131
+Not Found: /favicon.ico
+"GET /favicon.ico HTTP/1.1" 404 6767
+Internal Server Error: /read/works/1/
+Traceback (most recent call last):
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/django/core/handlers/base.py", line 181, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/views.py", line 41, in work_detail
+    "work": serializer.data,
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 555, in data
+    ret = super().data
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 253, in data
+    self._data = self.to_representation(self.instance)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/read/serializers.py", line 43, in to_representation
+    data['magazine'] = MagazineSerializer(Magazine.objects.get(pk=data['magazine'])).data
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/serializers.py", line 556, in data
+    return ReturnDict(ret, serializer=self)
+  File "/Users/noahcovey/Documents/Harvard/Clubs/Lampoon/fall22-tech-comp/venv/lib/python3.9/site-packages/rest_framework/utils/serializer_helpers.py", line 19, in __init__
+    super().__init__(*args, **kwargs)
+TypeError: 'NoneType' object is not iterable
+"GET /read/works/1/ HTTP/1.1" 500 96568

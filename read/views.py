@@ -1,22 +1,17 @@
-from ads.models import Ad
-from django.http.response import JsonResponse, HttpResponseRedirect
-from read.models import ArtWork, Magazine, View, Work, Book
+from django.http.response import JsonResponse
+from read.models import Magazine, View, Work, Book
+from read.serializers import *
 from django.shortcuts import get_object_or_404, render
 from django.core.paginator import Paginator
 import json
-from django.db.models.functions import Lower
-from django.db.models import Q, base
-import requests
+from django.db.models import Q
 from django.conf import settings
-from django.templatetags.static import static
-import os
 
 def detect(request):
     return render(request, "read/smile_detect.html")
 
 def works(request):
     filter_qs = request.GET.get("filter", "")
-    print(filter_qs)
     works = Work.objects.filter(active=True).filter(
     Q(title__icontains=filter_qs)|
     Q(writer__first_name__icontains=filter_qs)|
@@ -26,8 +21,11 @@ def works(request):
     paginator = Paginator(works, 20)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
+
+    serializer = WorkSerializer(page_obj, context={'request': request}, many=True)
+
     context = {
-        "works": page_obj,
+        "works": serializer.data,
         "filter": filter_qs
     }
     get_copy = request.GET.copy()
@@ -35,18 +33,25 @@ def works(request):
         get_copy.pop("page")
     context["get_copy"] = get_copy
 
-    return render(request, "read/works.html", context)
+    return JsonResponse(context)
+    # return render(request, "read/works.html", context)
 
 def work_detail(request, work_pk):
     work = get_object_or_404(Work, pk=work_pk)
     view = View.objects.get_or_create(work = work, cookie = request.COOKIES.get("_ga", None))
+    print(work.get_display_name())
+    serializer = WorkSerializer(work, context={'request': request})
     context = {
-        "work": work,
+        "work": serializer.data,
         "PRODUCT_API_URL": settings.PRODUCT_API_URL
     }
-    return render(request, "read/work_detail.html", context)
+    
+    return JsonResponse(context)
+    # return render(request, "read/work_detail.html", context)
+    
 
 def add_laugh_score(request):
+    print(request)
     if request.method=="POST":
         data = json.loads(request.body)
         work_pk = data.get("work_pk")

@@ -1,8 +1,8 @@
 
 from pathlib import Path
+from corsheaders.defaults import default_headers
 import os
 import environ
-from django.core.management.utils import get_random_secret_key
 
 def get_list(text):
     return [item.strip() for item in text.split(",")]
@@ -35,14 +35,16 @@ INSTALLED_APPS = [
     'tinymce',
     'widget_tweaks',
     'crispy_forms',
-
+    'corsheaders',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
@@ -175,3 +177,12 @@ LOGGING = {
         },
     },
 }
+
+CORS_ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+]
+
+CORS_ALLOW_HEADERS = list(default_headers) + [
+    'X-CSRFTOKEN',
+]
