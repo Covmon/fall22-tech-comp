@@ -41,6 +41,7 @@
     <a class="nav-link" href="{% url 'comp' %}">Comp</a>
     <a class="nav-link" href="{% url 'masthead' %}">Masthead</a>
     <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+    <a class="nav-link" href="{% url 'events' %}">History</a>
     <!-- <a class="nav-link" href="{% url 'lottery' %}">Lottery</a> -->
     {% if request.user.is_authenticated %}
     <a class="nav-link" href="{% url 'account_detail' request.user.url_username %}">My Profile</a>

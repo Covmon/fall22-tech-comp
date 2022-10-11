@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/read.css' %}">
+<link rel="stylesheet" href="{% static 'css/detect.css' %}">
+{% endblock %}
+{% block content %}
+
+<div class="container pb-5">
+    <div class="mb-4">
+        {% include 'includes/ad.html' with ad_type='banner' %}
+    </div>
+    <div style="overflow-x: hidden;" class="row">
+        <div class="col-12 col-md-8 mx-auto">
+
+            <img src="{{event.image.image.url}}" class="d-block w-100" alt="...">
+            <div class="text-end my-2">
+                        <div id="laugh" class="badge badge-laugh hoverme mt-2">
+                            <img height="25" class="me-1" src="{% static 'images/jester-hat.svg' %}" alt="">
+                            <span id="laugh-score">{{event.laugh_score}}</span>
+                            <span data-bs-toggle="tooltip" data-bs-placement="top" title="Click to laugh up to 10 times for each piece!" class="position-absolute top-0 start-100 translate-middle">
+                                <i class="ms-1 fas fa-info-circle" style="font-size: 20px;"></i>
+                              </span>
+                    </div>
+
+                <input type="hidden" name="event_pk" value="{{event.pk}}" id="event-pk">
+                <input type="hidden" name="endpoint" value="{% url 'add_laugh_score' %}" id="laugh-endpoint">
+            </div>
+            <div class="text-start">
+                <h1 class="card-title-date">{{event.date}}:</h1>
+                <h1 class="card-title mb-0">{{event.title}}</h1>
+                <div><strong>Author: </strong><a class="work-link"
+                        href="{% url 'account_detail' event.writer.url_username %}">{{event.get_display_name}}</a></div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-6 ms-auto">
+            <div class="mt-4">{{event.content | safe}}</div>
+
+        </div>
+        <div class="col-12 col-md-3">
+       
+            <div id="sticky-work" class="sticky-top pt-5">
+                <div class="pt-5 text-center">
+                {% include 'includes/ad.html' with ad_type='block' %}
+                <!-- <div class="badge badge-laugh mt-3">Laugh</div> -->
+            </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+</div>
+
+{% endblock %}
+{% block js %}
+<script src="{% static 'js/laugh.js' %}"></script>
+<script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+</script>
+<!-- <script src="{% static 'js/face-api.js' %}"></script>
+<script src="{% static 'js/detect.js' %}"></script> -->
+{% endblock %}

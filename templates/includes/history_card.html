@@ -1,0 +1,21 @@
+{% load static %}
+<a class="card-link" href="{% url 'event_detail' event.pk %}">
+  <div class="card shadow" style="border: none">
+
+    <img src="{{event.get_preview_image.image.url}}" class="card-img-top" alt="...">
+
+    <div class="card-body">
+      <h5 class="card-title text-center mb-0 align-items-center d-flex justify-content-center">{{event.title}}{% include 'includes/laugh-badge.html' %}</h5>
+    </a>
+      <div class="d-flex fw-bold align-items-center justify-content-center">
+        {% if event.custom_display_name %}
+          <div>{{event.get_display_name}}</div>
+        {% else %}
+          <a class="account-link" href="{% url 'account_detail' event.writer.url_username %}">{{event.get_display_name}}</a>
+        {% endif %}
+        <span class="dot mx-2 align-self-center"></span>
+        <div>{{event.date|date:"F d, Y" }}</div>
+      </div>
+      <div class="card-text mt-2">{{event.content|striptags|truncatechars:100|safe}}</div>
+    </div>
+  </div>

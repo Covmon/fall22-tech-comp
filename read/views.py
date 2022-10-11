@@ -39,7 +39,6 @@ def works(request):
 def work_detail(request, work_pk):
     work = get_object_or_404(Work, pk=work_pk)
     view = View.objects.get_or_create(work = work, cookie = request.COOKIES.get("_ga", None))
-    print(work.get_display_name())
     serializer = WorkSerializer(work, context={'request': request})
     context = {
         "work": serializer.data,

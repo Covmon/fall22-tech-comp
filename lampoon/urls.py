@@ -8,6 +8,7 @@ urlpatterns = [
     path("", include("core.urls")),
     path("read/", include("read.urls")),
     path("create/", include("create.urls")),
+    path("history/", include("history.urls")),
     path("", include("account.urls")),
     path('tinymce/', include('tinymce.urls')),
 ]

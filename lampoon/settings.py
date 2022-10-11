@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'account',
     'core',
     'read',
+    'history',
     'ads',
     'tinymce',
     'widget_tweaks',

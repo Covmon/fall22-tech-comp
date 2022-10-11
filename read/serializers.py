@@ -3,15 +3,10 @@ from account.models import User
 from read.models import ArtWork, Magazine, Work
 
 class ArtworkSerializer(serializers.ModelSerializer):
-  # artwork_url = serializers.SerializerMethodField()
-
   class Meta:
     model = ArtWork
     fields = ('pk', 'artist', 'image', 'title', 'order', 'custom_display_name', 'original_work', 'created_at')
-
-  # def artwork_url(self, artwork):
-  #   return artwork.image.url
-
+    
   def to_representation(self, instance):
     data = super().to_representation(instance)
     data['artist'] = UserSerializer(User.objects.get(pk=data['artist'])).data
@@ -26,6 +21,9 @@ class MagazineSerializer(serializers.ModelSerializer):
   def to_representation(self, instance):
     data = super().to_representation(instance)
     data['cover_image'] = ArtworkSerializer(ArtWork.objects.get(pk = data['cover_image'])).data
+    data['issue_editor'] = UserSerializer(User.objects.get(pk=data['issue_editor'])).data
+    data['art_editor'] = UserSerializer(User.objects.get(pk=data['art_editor'])).data
+
     return data
 
 class UserSerializer(serializers.ModelSerializer):

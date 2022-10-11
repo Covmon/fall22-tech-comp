@@ -236,6 +236,11 @@ a > .card-title:hover{
     color: #733898;
 }
 
+.card-title-date {
+    color: #b374da;
+    margin-bottom: 12px;
+}
+
 
 .badge.badge-laugh{
     font-size: 18px;

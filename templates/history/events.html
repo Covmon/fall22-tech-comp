@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/read.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="container pb-5">
+  {% include 'includes/ad.html' with ad_type='banner' %}
+  <h1 class="text-center pt-3">Lampoon History</h1>
+  <div class="row">
+    <form method="GET" action="">
+    <div class="mb-3 col-12 col-md-6 mx-auto">
+      <input placeholder="Filter Lampoon History..." type="text" name="filter" value="{{filter}}" class="form-control">
+    </div>
+  </form>
+  </div>
+    <div class="row g-4 grid">
+      {% if events %}
+
+      {% for event in events %}
+      {% if forloop.counter|divisibleby:4 %}
+      <div class="col-6 col-lg-4">
+      {% include 'includes/ad.html' with ad_type='block' %}
+    </div>
+      {% endif %}
+      <div class="col-6 col-lg-4">
+        {% include 'includes/history_card.html' %}
+        </div>
+      {% endfor %}
+      {% else %}
+      <h1 class="text-center">No results :(</h1>
+      {% endif %}
+
+  {% include 'includes/pagination.html' with page_obj=events %}
+        </div>
+</div>
+{% endblock %}
+{% block js %}
+<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+<script>
+    Promise.all(Array.from(document.images).filter(img => !img.complete).map(img => new Promise(resolve => { img.onload = img.onerror = resolve; }))).then(() => {
+	var msnry = new Masonry('.grid');
+	msnry.layout();
+});
+</script>
+{% endblock %}
