@@ -1,6 +1,12 @@
 # Harvard Lampoon v3
 ## Install and Configure
 
+For info on how to run this submission, see here:
+https://docs.google.com/document/d/1tMj8RGM6BNGskAaKOUC_dw04QojA5k6kAMTp-L9vs40/edit?usp=sharing
+
+Note that the React frontend is in a separate repo (linked in the above doc), or here:
+https://github.com/Covmon/lampoon-comp-react-site
+
 
 ## Env Setup
 
