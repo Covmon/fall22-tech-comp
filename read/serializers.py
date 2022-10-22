@@ -29,7 +29,7 @@ class MagazineSerializer(serializers.ModelSerializer):
 class UserSerializer(serializers.ModelSerializer):
   class Meta:
     model = User
-    fields = ('pk', 'url_username', 'display_name')
+    fields = ('pk', 'email', 'url_username', 'display_name', 'first_name', 'last_name', 'bio', 'year_joined', 'graduation_year', 'board')
 
 class WorkSerializer(serializers.ModelSerializer):
   class Meta:

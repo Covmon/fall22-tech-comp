@@ -1,21 +1,29 @@
-from read.models import ArtWork, Work
-from django.conf import settings
+from django.http import JsonResponse
+from read.models import Work
 from django.shortcuts import get_object_or_404, render, redirect
 from django.conf import settings
 from django.contrib.auth import get_user_model
 from django.db.models import Q
 from django.contrib.auth.decorators import login_required
 from django.contrib import messages
-from .forms import UserSettingsForm
+
+from read.serializers import UserSerializer, WorkSerializer
+from account.forms import UserSettingsForm
 
 def account_detail(request, url_username):
     account = get_object_or_404(get_user_model(), url_username=url_username)
     works = Work.objects.filter(active=True).filter(Q(writer=account) | Q(art_work__artist=account)).filter(original_work=True).distinct().order_by('-created_at')
+
+    workSerializer = WorkSerializer(works, context={'request': request}, many=True)
+    userSerializer = UserSerializer(account, context={'request': request})
+
     context = {
-        "account": account,
-        "works": works
+        "account": userSerializer.data,
+        "works": workSerializer.data
     }
-    return render(request, "account/detail.html", context)
+
+    return JsonResponse(context)
+    # return render(request, "account/detail.html", context)
 
 @login_required
 def account_settings(request):
